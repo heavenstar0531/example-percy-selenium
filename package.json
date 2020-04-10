@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "example-percy-seleniumjs",
+  "description": "Example app to show how to visual test JavaScript Selenium with Percy",
+  "repository": "https://github.com/percy/example-percy-seleniumjs",
+  "keywords": [
+    "selenium",
+    "javascript selenium",
+    "percy",
+    "visual testing"
+  ],
+  "author": "Perceptual Inc.",
+  "license": "MIT",
+  "scripts": {
+    "test": "percy exec -- node test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@percy/seleniumjs": "^0.1.2",
+    "chromedriver": "^80.0.0",
+    "http-server": "^0.11.1",
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "todomvc-app-css": "^2.2.0",
+    "todomvc-common": "^1.0.5"
+  }
+}
