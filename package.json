@@ -12,14 +12,14 @@
   "author": "Perceptual Inc.",
   "license": "MIT",
   "scripts": {
-    "test": "percy exec -- node test.js"
+    "test": "percy exec -- node tests/test.js"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@percy/seleniumjs": "^0.1.2",
+    "@percy/cli": "^1.0.0-beta.42",
+    "@percy/selenium-webdriver": "^1.0.0-beta.4",
     "chromedriver": "^80.0.0",
     "http-server": "^0.11.1",
-    "selenium-webdriver": "^4.0.0-alpha.7",
+    "selenium-webdriver": "^4.0.0-beta.2",
     "todomvc-app-css": "^2.2.0",
     "todomvc-common": "^1.0.5"
   }
